@@ -1,28 +1,30 @@
 import java.util.*;
-public class Dice {
-		Random dice = new Random();
-		Scanner answer = new Scanner(System.in);
-		String player = "";
-		int die1Roll = 0;
-		int die2Roll = 0;
-		int score = 0;
-		int roundScore = 0;
-		boolean skunk = false;
+public class Dice
+{
+
+	private int numofsides;
+	private int faceValue;
+	
+	public Dice(int numberofsides)		//constructor
+	{
+		numofsides = numberofsides;
 		
-		public Dice(){
-			
-		}
-
-	public void playerArrange() {
-		// TODO Auto-generated method stub
-			}
-
-	public void roll() {
-		// TODO Auto-generated method stub
+		Random myRandomGenerator = new Random();		
+		faceValue = myRandomGenerator.nextInt(numofsides) +1;
+		//end of contractor
 	}
-
-	public static void main(String[] args) {
-
-		// TODO Auto-generated method stub
+	
+	//This method will simulate rolling the dice object
+	public void rollDice()
+	{
+		Random myRandomGenerator = new Random();		
+		faceValue = myRandomGenerator.nextInt(numofsides) +1;
+		//end of method rollDice()
+	//This method will return the current face value of the dice objects	
+	}
+	public int getFaceValue()
+	{
+		return faceValue;
+		//end of method getFaceValue
 	}
 }
