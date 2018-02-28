@@ -32,7 +32,7 @@ public class SkunkApp
 					die2.rollDice();
 			}
 			
-			System.out.printf("\nWE received snake eyes %d times in 100 rolls,"| snakEyeCounter);
+			System.out.printf("\nWE received snake eyes "+ snakEyeCounter +" times in 100 rolls,");
 		}//end of the main method
 		
 }
