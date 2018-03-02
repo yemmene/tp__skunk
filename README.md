@@ -7,20 +7,34 @@ You will work with your team partner in Eclipse, using EGit/Git and GitHub. I wi
 Process Steps
 
 Meet with your assigned team member(s) and review the Skunk specifications.
+
 Together, you should review the provided Skunk specification (posted on our Canvas site within the TP 1 module). You will eventually implement all of its described behavior across multiple phases of this project, but you will first implement a version of the Skunk dice that make it easier to test your implementation.
+
 Download and import the starting Skunk.zip archive file into the host's Eclipse workspace. 
+
 Pick one of your team members, and designate them as the project host. Have each team member start Eclipse on their own PC, and configure it with their own Git credentials (GitHub name and email).
+
 Download and import the Skunk.zip archived project into the host's local Eclipse workspace. It contains starting code the Skunk Eclipse project. Only do this for the host, initially. We will review how to do so in class.
 The provided project has the required starting structure and code for your Skunk implementation, with a separate project source folder named test that should contain all of your JUnit test cases. It also contains an external library (.jar) called stdlib, which includes StdIn and StdOut for simple console-based I/O. This replaces the usual Java I/O console. Please use it for your UI.
+
 Convert this local project into a Git-enabled one ("share the project").
+
 Share the host's Eclipse project (Team->Share Project...), creating a local repository outside the Eclipse workspace on the host's PC. If working on a classroom PC, think about placing your repo in a folder on your Desktop so you can find it later. If working on your own PC, remember where you locate the repo.
+
 Create, stage, and commit your beginning Java classes to the local Git repo.
+
 Create a first class SkunkApp within your project. Then create a JUnit test case SkunkAppTest with its initial fail() test method for this class. Stage these new files ("Git add"), along with others in the project, then do your first commit to the local repo. Don't forget to provide a commit message! 
+
 Create an empty GitHub repository tp_1_skunk under the host's GitHub account.
+
 Add other team member's accounts as collaborators to the host's repo, along with my seis-635-spring2018 account. Make sure that all collaborators accept the GitHub-generated email invitation.
+
 Push the previous commit to this remote GitHub repo, and check your work.
+
 Push your commit to the empty GitHub repo under the host's account. Think about storing your GitHub logon credentials in Eclipse's secure storage, so you don't have to enter them over and over. Log onto the host's GitHub account, examine the repo and verify this first commit was successful.
+
 Clone the GitHub repo to the non-host's local PC.
+
 Now the other team member(s) should (each) clone the host's GitHub tp_1_skunk repo to their own local PC, whether classroom or laptop. Do so by logging onto their own GitHub account, then viewing and copying the shared host repo URI to the clipboard. (You did remember to add all team members as collaborators, didn't you?) Then do Import...->Git->Projects from Git->Clone URI and the URI in the clipboard should be automatically entered into the dialog. 
 Note that you don't need to log onto GitHub to clone (download a copy) the host repo, since it's a public repo - but entering and saving the Authentication info (GitHub username and password) into Eclipse's secure store will allow you to skip logging on to GitHub for each repo access in the future.
 
