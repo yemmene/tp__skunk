@@ -1,3 +1,4 @@
+// Done on March 16th 2018
 // Represents a combination of two die
 public class Dice {
 
