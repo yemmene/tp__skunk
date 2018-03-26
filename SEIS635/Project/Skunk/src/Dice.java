@@ -1,4 +1,4 @@
-// Done on March 16th 2018
+
 // Represents a combination of two die
 public class Dice {
 
@@ -14,7 +14,11 @@ public class Dice {
     
     // Getters 
 
-    public Die getDie1() {
+    public Dice() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Die getDie1() {
         return die1;
     }
 

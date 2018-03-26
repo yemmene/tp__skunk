@@ -1,8 +1,9 @@
 /Dice.class
-/SkunkApp.class
-/TestPackages/
-/testDice.class
 /Die.class
+/DieDiceTests.class
 /LoadedDie.class
 /RandomDie.class
-/DieDiceTests.class
+/PlayerOne.class
+/PlayerTwo.class
+/SkunkApp.class
+/Game.class
